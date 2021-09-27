@@ -6,17 +6,10 @@
 %   - dataFile2: mmWave train data   
 %   - dataFile2: Sub-6 train data
 %   - dataFile1: mmWave test data
-% Each .mat is a data structure with the following fields: channels and user 
-% locations. Channels should be arranged into a 3D array with the following 
-% dimensions: # of antenna elements X # of sub-carriers X # of users. User 
-% locations should be a 2D array with the folllowing dimensions: 3 X # of users. 
-%  The "options" structure provide control over the type of experiment to run.
 % -------------------------------------------------------------------------------
-% Author: 
-% Muhammad Alrabeiah,
-% Sept 2019.
-%
+% This File is an updated version of https://github.com/malrabeiah/Sub6-Preds-mmWave/blob/master/main.m
 %=================================================================================%
+
 clc
 clear
 close all

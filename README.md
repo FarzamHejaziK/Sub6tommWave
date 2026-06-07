@@ -4,6 +4,15 @@ MATLAB code for predicting mmWave beam selections from sub-6 GHz channel measure
 
 This repository contains a deep learning experiment pipeline for using lower-frequency channel state information as input and predicting the best mmWave beam index. It is based on the sub-6 GHz to mmWave beam-selection workflow and includes scripts for data preparation, beam-codebook generation, model construction, training, testing, and rate/accuracy evaluation.
 
+## Related Publication
+
+This repository is related to the PARAMOUNT paper:
+
+Katarina Vuckovic, Mahdi Boloursaz Mashhadi, Farzam Hejazi, Nazanin Rahnavard, and Ahmed Alkhateeb. "PARAMOUNT: Toward Generalizable Deep Learning for mmWave Beam Selection Using Sub-6 GHz Channel Measurements." IEEE Transactions on Wireless Communications, vol. 23, no. 5, pp. 5187-5202, 2024.
+
+- Paper DOI: https://doi.org/10.1109/TWC.2023.3324916
+- Author version PDF: https://lcwnlab.eecs.ucf.edu/wp-content/uploads/2023/12/PARAMOUNT_IEEE.pdf
+
 ## Project Overview
 
 The main experiment trains a neural network to classify the best mmWave beam from transformed sub-6 GHz channel data. The pipeline:
